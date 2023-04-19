@@ -27,7 +27,7 @@ void setup() {
 
   Serial.begin(9600);
 
-/* Uma comunicação assíncrona (que não usam o clock como referência) com 9600 bps envia um bit em 0,0001 s. 
+/* Uma comunicação assíncrona (que não usa o clock como referência) com 9600 bps envia um bit em 0,0001 s. 
 Esta taxa assume diferentes nomes dependendo da comunicação, 
 como em comunicações síncronas que é chamada de "clock" ou 
 em comunicações assíncronas que é conhecida como "Baud Rate". */
