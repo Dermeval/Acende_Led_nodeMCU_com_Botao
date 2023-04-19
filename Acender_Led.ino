@@ -27,6 +27,11 @@ void setup() {
 
   Serial.begin(9600);
 
+/* Uma comunicação assíncrona com 9600 bps envia um bit em 0,0001 s. 
+Esta taxa assume diferentes nomes dependendo da comunicação, 
+como em comunicações síncronas que é chamada de "clock" ou 
+em comunicações assíncronas que é conhecida como "Baud Rate". */
+
 
   Serial.println("Booting");
   WiFi.mode(WIFI_STA);
